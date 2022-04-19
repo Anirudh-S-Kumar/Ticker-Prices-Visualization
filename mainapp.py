@@ -1,4 +1,5 @@
 from data_gathering import extendTicker
+from PIL import Image
 import streamlit as st
 import plotly.graph_objs as objs
 from datetime import date, datetime
@@ -7,8 +8,9 @@ import cufflinks as cf
 import pandas as pd
 import re
 
+pageicon = Image.open("resources/pageicon.png")
 st.set_page_config(page_title="Ticker Prices Visualization",
-                  page_icon=".\\resources\\pageicon.png")
+                  page_icon=pageicon)
 
 layout = objs.Layout(
     paper_bgcolor='rgba(0,0,0,0)',

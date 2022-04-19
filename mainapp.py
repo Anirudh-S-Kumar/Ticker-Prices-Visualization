@@ -8,7 +8,7 @@ import pandas as pd
 import re
 
 st.set_page_config(page_title="Ticker Prices Visualization",
-                  )
+                  page_icon=".\\resources\\pageicon.png")
 
 layout = objs.Layout(
     paper_bgcolor='rgba(0,0,0,0)',

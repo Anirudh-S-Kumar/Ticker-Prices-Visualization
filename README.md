@@ -9,11 +9,18 @@ To host the app on your local machine,
   ```bash
   git clone https://github.com/Anirudh-S-Kumar/Ticker-Prices-Visualization.git
   ```
+  
 2) Installing the dependencies
 ```bash
 pip install -r requirements.txt
 ```
-3) Running the app
+
+3) Install streamlit
+```bash
+pip install streamlit=1.8.1
+```
+
+4) Running the app
 ```bash
 streamlit run mainapp.py
 ```

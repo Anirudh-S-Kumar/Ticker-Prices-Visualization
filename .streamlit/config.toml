@@ -3,4 +3,4 @@ base="dark"
 primaryColor="#17becf"
 
 [server]
-port = 3001
+port = 8501

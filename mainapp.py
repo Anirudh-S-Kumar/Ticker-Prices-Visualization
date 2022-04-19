@@ -7,6 +7,8 @@ import cufflinks as cf
 import pandas as pd
 import re
 
+st.set_page_config(page_title="Ticker Prices Visualization",
+                  )
 
 layout = objs.Layout(
     paper_bgcolor='rgba(0,0,0,0)',

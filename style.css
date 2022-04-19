@@ -1,0 +1,39 @@
+.circular_image img{
+    width: 128px;
+    height: 128px;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 2px;
+    border-color: grey;
+  }
+
+a:link , a:visited{
+color: whitesmoke;
+background-color: transparent;
+text-decoration: underline;
+}
+
+a:hover,  a:active {
+color: whitesmoke;
+background-color: transparent;
+text-decoration: underline;
+}
+
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: #0e1117;
+color: rgb(255, 255, 255);
+text-align: center;
+}
+
+.blue{
+  color: #17becf;
+}
+
+.stButton>button{
+  width: max-content;
+
+}
